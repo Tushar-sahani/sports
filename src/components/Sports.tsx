@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Image from "next/image";
-import checkimg from "@/assets/collectionImg1.jpeg";
 import { sportsData } from "@/constant/sportsData";
 import addsimg from '@/assets/addsImg.jpeg'
 const Sports = () => {
@@ -10,7 +9,7 @@ const Sports = () => {
         Sports
       </h1>
       <div className="p-7 flex justify-center">
-        {sportsData.map((data,id) => {
+        {sportsData.map((data) => {
           return (
             <div key={data.id} className="bg-[#3B3E47] dark:bg-white box-border w-60 p-3 ml-5">
               <Image src={data.img_url} alt="game" className="w-64 aspect-[4/7] object-cover" />
