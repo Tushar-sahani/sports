@@ -7,7 +7,7 @@ import { FaChevronRight } from "react-icons/fa";
 
 const CollectionSpotlite = () => {
   return (
-    <div className="m-36 mt-2 bg-gradient-to-r from-[#18282A] to-[#221A2C] text-center text-white">
+    <div className="m-36 mt-2 bg-gradient-to-r from-[#18282A] to-[#221A2C] dark:text-black dark:from-[#F9F8FF] dark:to-[#F3F9FF] text-center text-white">
       <div className="p-32 pt-12">
         <h1 className="text-5xl font-bold p-8">Collection Spotlight</h1>
         <p className="">
@@ -21,9 +21,9 @@ const CollectionSpotlite = () => {
           <FaChevronLeft />
         </button>
         <div className="flex">
-          <div className="bg-[#3B3E47] w-64 p-2 ">
+          <div className="bg-[#3B3E47] dark:bg-white w-64 p-2 ">
             <Image src={collection1} alt="colleciont" className="w-64" />
-            <div className='relative text-[#818A97] after:bg-gradient-to-r after:from-[#18282A] after:to-[#221A2C] after:content-[""]  after:w-6 after:h-6 after:border-1 after:z-10 after:block after:rounded-full after:absolute after:-left-5 after:top-2 before:bg-gradient-to-r before:content-[""]  before:w-6 before:h-6 before:border-1 before:z-10 before:block before:rounded-full before:absolute before:-right-5 before:top-2 before:from-[#221A2C] before:to-[#18282A]'>
+            <div className='relative after:dark:from-[#F9F8FF] after:dark:to-[#F3F9FF] before:dark:from-[#F9F8FF] before:dark:to-[#F3F9FF] text-[#818A97] after:bg-gradient-to-r after:from-[#18282A] after:to-[#221A2C] after:content-[""]  after:w-6 after:h-6 after:border-1 after:z-10 after:block after:rounded-full after:absolute after:-left-5 after:top-2 before:bg-gradient-to-r before:content-[""]  before:w-6 before:h-6 before:border-1 before:z-10 before:block before:rounded-full before:absolute before:-right-5 before:top-2 before:from-[#221A2C] before:to-[#18282A]'>
               _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
             </div>
             <div>
@@ -32,17 +32,17 @@ const CollectionSpotlite = () => {
                 OCT 15 <span className="text-[#818A97]">|</span> SUN{" "}
                 <span className="text-[#818A97]">|</span> 4:30 PM
               </p>
-              <p className="p-1 text-[#DFDFDF]">
+              <p className="p-1 text-[#DFDFDF] dark:text-[#525965]">
                 Las Vagas Ballpark, Las Vegas, Nevada
               </p>
             </div>
-            <button className="bg-black p-2 w-full ">
+            <button className="bg-black p-2 w-full text-white">
               Take Flight Collection
             </button>
           </div>
-          <div className="bg-[#3B3E47] w-64 p-2 ml-20">
+          <div className="bg-[#3B3E47] dark:bg-white w-64 p-2 ml-20">
             <Image src={collection2} alt="colleciont" className="w-64" />
-            <div className='relative text-[#818A97] after:bg-gradient-to-r after:from-[#18282A] after:to-[#221A2C] after:content-[""]  after:w-6 after:h-6 after:border-1 after:z-10 after:block after:rounded-full after:absolute after:-left-5 after:top-2 before:bg-gradient-to-r before:content-[""]  before:w-6 before:h-6 before:border-1 before:z-10 before:block before:rounded-full before:absolute before:-right-5 before:top-2 before:from-[#221A2C] before:to-[#18282A]'>
+            <div className='relative after:dark:from-[#F9F8FF] after:dark:to-[#F3F9FF] before:dark:from-[#F9F8FF] before:dark:to-[#F3F9FF] text-[#818A97] after:bg-gradient-to-r after:from-[#18282A] after:to-[#221A2C] after:content-[""]  after:w-6 after:h-6 after:border-1 after:z-10 after:block after:rounded-full after:absolute after:-left-5 after:top-2 before:bg-gradient-to-r before:content-[""]  before:w-6 before:h-6 before:border-1 before:z-10 before:block before:rounded-full before:absolute before:-right-5 before:top-2 before:from-[#221A2C] before:to-[#18282A]'>
               _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
             </div>
             <div>
@@ -51,17 +51,17 @@ const CollectionSpotlite = () => {
                 OCT 15 <span className="text-[#818A97]">|</span> SUN{" "}
                 <span className="text-[#818A97]">|</span> 4:30 PM
               </p>
-              <p className="p-1 text-[#DFDFDF]">
+              <p className="p-1 text-[#DFDFDF] dark:text-[#525965]">
                 Las Vagas Ballpark, Las Vegas, Nevada
               </p>
             </div>
-            <button className="bg-black p-2 w-full ">
+            <button className="bg-black p-2 w-full text-white">
               Take Flight Collection
             </button>
           </div>
-          <div className="bg-[#3B3E47] w-64 p-2 ml-20">
+          <div className="bg-[#3B3E47] dark:bg-white w-64 p-2 ml-20">
             <Image src={collection1} alt="colleciont" className="w-64" />
-            <div className='relative text-[#818A97] after:bg-gradient-to-r after:from-[#18282A] after:to-[#221A2C] after:content-[""]  after:w-6 after:h-6 after:border-1 after:z-10 after:block after:rounded-full after:absolute after:-left-5 after:top-2 before:bg-gradient-to-r before:content-[""]  before:w-6 before:h-6 before:border-1 before:z-10 before:block before:rounded-full before:absolute before:-right-5 before:top-2 before:from-[#221A2C] before:to-[#18282A]'>
+            <div className='relative text-[#818A97] after:bg-gradient-to-r after:from-[#18282A] after:to-[#221A2C] after:content-[""]  after:w-6 after:h-6 after:border-1 after:z-10 after:block after:rounded-full after:absolute after:-left-5 after:top-2 before:bg-gradient-to-r before:content-[""]  before:w-6 before:h-6 before:border-1 before:z-10 before:block before:rounded-full before:absolute before:-right-5 before:top-2 before:from-[#221A2C] before:to-[#18282A] after:dark:from-[#F9F8FF] after:dark:to-[#F3F9FF] before:dark:from-[#F9F8FF] before:dark:to-[#F3F9FF]'>
               _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
             </div>
             <div>
@@ -70,11 +70,11 @@ const CollectionSpotlite = () => {
                 OCT 15 <span className="text-[#818A97]">|</span> SUN{" "}
                 <span className="text-[#818A97]">|</span> 4:30 PM
               </p>
-              <p className="p-1 text-[#DFDFDF]">
+              <p className="p-1 text-[#DFDFDF] dark:text-[#525965]">
                 Las Vagas Ballpark, Las Vegas, Nevada
               </p>
             </div>
-            <button className="bg-black p-2 w-full ">
+            <button className="bg-black p-2 w-full text-white">
               Take Flight Collection
             </button>
           </div>
